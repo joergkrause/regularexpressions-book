@@ -1,0 +1,24 @@
+<html>
+<head>
+  <title>Check ZIP Code<</title>
+</head>  
+<body>
+<h1>ZIP Code Checker</h1>
+<form>
+ <input type="text" name="zip" value="" id="zip">
+ <input type="submit" onclick="checkZip">
+</form>
+<script>
+function checkZip(){
+ var re = /^[0-9]{5}$/;
+ var field = document.getElementById("zip").value;
+ var checkzip = re.exec(feld);
+ if(!checkzip) {
+   alert("The zip code " + checkplz + " is not correct.");
+ } else {
+   console.log(checkplz)
+ }
+}
+</script>
+</body>
+</html>
