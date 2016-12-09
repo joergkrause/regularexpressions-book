@@ -1,4 +1,5 @@
-# regularexpressions-book
+# Book Support
+
 This is the support repository for the Book "Regular Expressions in JavaSript"
 
 # The book
